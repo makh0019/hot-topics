@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*
+font-family: 'Alegreya', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/*
+#FFE9E5
+#E85FAB
+#CF6FFF
+#E8E8E8
+#A7D0FF
+*/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+div.masthead {
+    background-color: #ffffff;
+    padding: 1rem;
+    background-image: url(../img/money1.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.nav-bar ul {
+    padding-left: 0;
+}
+
+.nav-bar li {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    padding: .3rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.nav-bar li a {
+    display: inline-block;
+    margin: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
+    color: #000000;
+}
+
+.masthead h1 {
+    font-size: 2rem;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box h2 {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.art {
+    max-width: 100%;
+    height: auto;
+}
+
+.box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .618rem;
+    line-height: 1.4rem;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .618rem;
+    padding: .5rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: .618rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+}
+
+footer .socialicon ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+footer .socialicon li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer .socialicon li a {
+    text-align: center;
+    padding: .8rem;
+    font-size: 1.3rem;
+    color: #E85FAB;
+}
+
+.info h3 {
+    font-size: .618rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.b h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.in {
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: 0.5rem 0;
+    font-size: .618rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#send {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .618rem;
+    margin-left: 0;
+}
+
+textarea {
+    margin: 1rem 0;
+    width: 100%;
+    height: 4rem;
+    font-size: .618rem;
+}
+
+.feedback {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .618rem;
+    color: #000000;
+    text-align: center;
+}
+
+.feedback ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 35rem) and ( max-width: 80rem) {
+    body {
+        margin: 0 1rem;
+    }
+    .logo img {
+        max-width: 50%;
+        height: auto;
+        margin: 0 25%;
+    }
+    .nav-bar ul {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .nav-bar li {
+        float: left;
+        display: inline-block;
+        padding: 0;
+        width: 49.5%;
+        margin-right: 1%;
+    }
+    .nav-bar li:last-child {
+        margin-right: 0;
+    }
+    .nav-bar li a {
+        display: inline-block;
+        color: #000000;
+    }
+    .masthead {
+        clear: both;
+    }
+    .artist {
+        max-width: 40%;
+        height: auto;
+        float: left;
+        margin-right: 2rem;
+    }
+    .box p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+    .info h3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    form {
+        text-align: left;
+    }
+    .in {
+        float: left;
+        width: 28%;
+        margin: .3rem 0;
+        padding: .3rem;
+        clear: both;
+        font-size: 1rem;
+    }
+    #comment {
+        float: right;
+        width: 70%;
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: -5.2rem;
+        height: 7.7rem;
+        font-size: 1rem;
+    }
+    footer {
+        clear: both;
+        margin-top: 10rem;
+    }
+    #send {
+        clear: both;
+        float: left;
+        width: 28%;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .feedback {
+        clear: both;
+        margin-top: 10rem;
+        font-size: 1rem;
+    }
+    pre {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .logo {
+        max-width: 20%;
+        height: auto;
+        float: left;
+        margin-left: 13rem;
+    }
+    .nav-bar {
+        width: 50%;
+        float: left;
+        display: inline;
+    }
+    .nav-bar li {
+        float: left;
+        margin-top: 2.45rem;
+        padding: .5rem 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .masthead {
+        clear: both;
+    }
+    .masthead h1 {
+        text-align: left;
+        margin-left: 12rem;
+        padding: 1rem;
+        width: 30%;
+    }
+    .art {
+        margin-left: 4rem;
+    }
+    .box h2 {
+        text-align: left;
+        margin-left: 4rem;
+    }
+    figcaption {
+        text-align: left;
+        margin-left: 4rem;
+        padding-left: 0;
+        font-size: .8rem;
+    }
+    .artist {
+        max-width: 40%;
+        height: auto;
+        float: left;
+        margin-right: 2rem;
+    }
+    .box p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-left: 4rem;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+    .info h3 {
+        font-size: 1rem;
+    }
+    .box {
+        float: left;
+    }
+    .bg-main.clearfix {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    .box.clearfix:nth-child(2) {
+        width: 49%;
+        margin-right: 8px;
+    }
+    .box.clearfix: last-child {
+        width: 49%;
+    }
+    .clearfix.last {
+        float: right;
+        width: 49%;
+    }
+    footer {
+        margin-top: 12rem;
+    }
+    footer p {
+        text-align: left;
+        margin-left: 13rem;
+    }
+    footer .socialicon ul {
+        text-align: left;
+        margin-left: 13rem;
+    }
+    footer .socialicon li {
+        text-align: left;
+    }
+    footer .socialicon li a {
+        padding-left: 0;
+    }
+    .info h3 {
+        text-align: left;
+        margin-left: 13rem;
+        line-height: 1.6rem;
+    }
+    .b h1 {
+        margin-left: 4rem;
+        text-align: left;
+    }
+    form {
+        /*        width: 100%;*/
+        margin-left: 4rem;
+    }
+    input {
+        margin-left: 4rem;
+    }
+    .in {
+        float: left;
+        width: 28%;
+        margin: .3rem 0;
+        padding: .3rem;
+        clear: both;
+        font-size: 1rem;
+    }
+    #comment {
+        float: right;
+        width: 70%;
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: -5.2rem;
+        height: 7.7rem;
+        font-size: 1rem;
+    }
+    footer {
+        clear: both;
+        margin-top: 10rem;
+    }
+    #send {
+        clear: both;
+        float: left;
+        width: 28%;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .feedback {
+        clear: both;
+        margin-top: 10rem;
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 4rem;
+    }
+    pre {
+        margin-top: 10rem;
+    }
+}
